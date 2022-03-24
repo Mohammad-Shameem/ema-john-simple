@@ -1,0 +1,20 @@
+.cart{
+    padding: 20px 0px;  /* ekhane prothom ta holo upre niche padding ar porerta holo side padding */
+    position: sticky;  /* ekhane position fixed kora jaito.but but amra sticky korlam tar mane se tar div er baira jabe na ebong se tar div er top position e thakbe amra jotoi website er nicher dike nmi na kno.mane se tar prent er top e atke jabe. */
+    top: 38%;
+    text-align: center;
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+
+}
+.item-count{
+    color:orange;
+}
+.common{
+    color: orange;
+}
+.grandTotal{
+    color: orange;
+    
+}
