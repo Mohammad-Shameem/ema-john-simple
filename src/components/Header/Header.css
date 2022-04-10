@@ -1,4 +1,4 @@
-.header{
+.header {
     height: 80px;
     background-color: #1C2B35;
     display: flex;
@@ -6,19 +6,24 @@
     justify-content: space-between;
     padding-left: 140px;
     padding-right: 140px;
+
+
 }
-.header img{
+
+.header img {
     width: 140px;
 
 
 }
-.header a{
+
+.header a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 17px;
     margin-left: 36px;
 }
-.header a:hover{
-    color:orange;
-  
+
+.header a:hover {
+    color: orange;
+
 }

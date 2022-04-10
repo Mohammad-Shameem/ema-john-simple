@@ -1,18 +1,40 @@
-.shop-container{
+.shop-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;  /* ekhane repeat hobe na karon egula similar na. similar hoile amra repeat dei.ar ekhane 2ta component grid hobe prothomta hobe 4fr mane joto jayga ache tar 4vag se nibe ar porerta holo 1fr mane joto jayga ache tar 1 vag se nibe. */
- /*    width: 95%;
+    grid-template-columns: 4fr 1fr;
+    /* ekhane repeat hobe na karon egula similar na. similar hoile amra repeat dei.ar ekhane 2ta component grid hobe prothomta hobe 4fr mane joto jayga ache tar 4vag se nibe ar porerta holo 1fr mane joto jayga ache tar 1 vag se nibe. */
+    /*    width: 95%;
     margin: auto; */
 
 }
-.product-parent{
+
+.product-parent {
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
     /* width: 95%; */
     margin-top: 50px;
     margin-left: 20px;
 }
-.cart-parent{
+
+.cart-parent {
     background-color: rgba(255, 153, 0, 0.3);
+}
+
+.review-button {
+    background: #FF9900;
+    width: 232px;
+    height: 48px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    border: 0;
+
+    font-size: 15px;
+
+}
+
+.review-button font {}
+
+.rightArrow-icon {
+    margin-left: 6px;
 }

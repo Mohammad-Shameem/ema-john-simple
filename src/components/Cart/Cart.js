@@ -2,6 +2,7 @@ import './Cart.css'
 import React from 'react';
 
 const Cart = (props) => {
+
     const { cart } = props;
     // console.log(cart)
     let total = 0;
@@ -22,6 +23,7 @@ const Cart = (props) => {
             <p >Total Shipping Price: <span className='common'>$ {shipping}</span></p>
             <p >Tax: <span className='common'>$ {tax}</span></p>
             <h4 >Grand Total: <span className='grandTotal'>${grandTotal}</span></h4>
+            {props.children}    {/* eta hocche amader props er special form ja amra children hishebe pai. */}
         </div>
 
 
